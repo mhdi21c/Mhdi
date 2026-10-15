@@ -25,7 +25,7 @@ RUN mkdir -p \
 WORKDIR /tmp
 
 RUN wget -O x-ui.tar.gz \
-    https://github.com/MHSanaei/3x-ui/releases/download/v3.7.0/x-ui-linux-amd64.tar.gz \
+    https://github.com/MHSanaei/3x-ui/releases/download/v3.10.2/x-ui-linux-arm64.tar.gz \
     && tar -xzf x-ui.tar.gz \
     && cp -a x-ui/. /usr/local/x-ui/ \
     && rm -rf x-ui x-ui.tar.gz
